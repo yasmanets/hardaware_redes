@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">practice1_camera</string>
+    <string name="takePhoto">Hacer foto</string>
+    <string name="requestCameraPermissions">Es necesario el permiso de la cámara para utilizar la aplicación</string>
+    <string name="notImage">No se ha hecho ninguna foto</string>
+    <string name="badVersion">The device version is not compatible with the application</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="takePhoto">Take photo</string>
+    <string name="requestCameraPermissions">Camera permission is needed to run this application</string>
+    <string name="notImage">No photo has been taken</string>
+    <string name="badVersion">La versión del dispositivo no es compatible con la aplicación</string>
+</resources>
