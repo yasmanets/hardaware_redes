@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">simAccess</string>
+    <string name="requestReadStatePermissions">Es necesario acceder a los datos del telefono para iniciar la aplicación</string>
+    <string name="badVersion">La versión del dispositivo no es compatible con la aplicación</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="result">
+        <![CDATA[
+            La información del dispositivo es:\n\n
+            Número de teléfono: \n %1$s \n
+            Tipo de conexión: %2$s \n
+            Estado de datos: %3$s \n
+            IMEI: %4$s \n
+            Número de serie de la SIM: \n %5$s \n
+            Operador de la SIM: \n %6$s, %7$s \n
+            Operador de la red: \n %8$s, %9$s \n
+            Código ISO País SIM: \n %10$s \n
+            Código ISO País Red: \n %11$s \n
+            Número de contestador: \n %12$s \n
+            Roaming activado: %13$s \n
+            IMSI: \n %14$s \n
+            Versión IMEI: \n %15$s \n
+            Información de la celda: \n\n
+            %16$s
+        ]]>
+    </string>
+</resources>

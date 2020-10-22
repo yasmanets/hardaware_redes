@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="requestReadStatePermissions">It is necessary to access the phone data to start the application</string>
+    <string name="badVersion">The device version is not compatible with the application</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="result">
+        <![CDATA[
+            The device information is: \n\n
+            Phone number: \n %1$s \n
+            Connection type: %2$s \n
+            Data Status: %3$s \n
+            IMEI: %4$s \n
+            SIM serial number: \n %5$s \n
+            SIM operator: \n %6$s, %7$s \n
+            Network operator: \n %8$s, %9$s \n
+            ISO Country SIM code: \n %10$s \n
+            ISO code Country Network: \n %11$s \n
+            Answering machine number: \n %12$s \n
+            Roaming enabled: %13$s \n
+            IMSI: \n %14$s \n
+            IMEI Version: \n %15$s \n
+            Cell info: \n\n
+            %16$s
+        ]]>
+    </string>
+</resources>
