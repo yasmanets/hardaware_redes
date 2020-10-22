@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="getLocation">Get location</string>
+    <string name="requestLocationPermissions">Location permission is required to use the application</string>
+    <string name="badVersion">The device version is not compatible with the application</string>
+    <string name="location">Your location is: Longitude %1$f and Latitude %2$f</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">practice1_gps</string>
+    <string name="getLocation">Obtener localización</string>
+    <string name="requestLocationPermissions">Es necesario el permiso de localización para utilizar la aplicación</string>
+    <string name="badVersion">La versión del dispositivo no es compatible con la aplicación</string>
+    <string name="location">Tu localización es: Longitud %1$f y Latitud %2$f</string>
+</resources>
