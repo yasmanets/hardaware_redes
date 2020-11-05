@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifiSpeed">WIFI Speed</string>
+    <string name="frequency">Frequency</string>
+    <string name="hiddenSSID">Network is visible</string>
+    <string name="visibleSSID">Network is not visible</string>
+    <string name="wifiStrength">WIFI Strength</string>
+    <string name="isHidden">Hidden?</string>
+    <string name="netmask">Netmask</string>
+    <string name="gateway">Gateway</string>
+    <string name="dhcpServer">DHCP Server </string>
+    <string name="externalIP">External IP</string>
+</resources>

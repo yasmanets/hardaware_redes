@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">wifi</string>
+    <string name="wifiSpeed">Velocidad WIFI</string>
+    <string name="frequency">Frecuencia</string>
+    <string name="hiddenSSID">Red no visible</string>
+    <string name="visibleSSID">Red visible</string>
+    <string name="wifiStrength">Fuerza de señal</string>
+    <string name="isHidden">Oculta?</string>
+    <string name="netmask">Máscara de red</string>
+    <string name="gateway">Puerta de enlace</string>
+    <string name="dhcpServer">Servidor DHCP</string>
+    <string name="externalIP">IP Externa</string>
+</resources>
