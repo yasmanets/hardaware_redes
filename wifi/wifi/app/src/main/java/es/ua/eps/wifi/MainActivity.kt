@@ -6,12 +6,9 @@ import android.net.DhcpInfo
 import android.net.wifi.WifiInfo
 import android.net.wifi.WifiManager
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
+import android.text.format.Formatter
 import android.widget.ArrayAdapter
-import android.widget.Button
-import androidx.annotation.RequiresApi
 
 val info: ArrayList<String> = arrayListOf()
 
@@ -35,15 +32,14 @@ class MainActivity : ListActivity() {
         info.add("${getText(R.string.frequency)}: $frequency")
         info.add("${getText(R.string.wifiSpeed)}: ${wifiInfo.linkSpeed} Mbps")
         info.add("${getText(R.string.wifiStrength)}: ${wifiInfo.rssi} dBm")
-        info.add("IP: ${wifiInfo.ipAddress}");
-        info.add("${getText(R.string.netmask)}: ${dhcpInfo.netmask}")
-        info.add("${getText(R.string.gateway)}: ${dhcpInfo.gateway}")
-        info.add("${getText(R.string.dhcpServer)}: ${dhcpInfo.serverAddress}")
-        info.add("DNS1: ${dhcpInfo.dns1}")
-        info.add("DNS2: ${dhcpInfo.dns2}")
+        info.add("IP: ${Formatter.formatIpAddress(wifiInfo.ipAddress)}");
+        info.add("${getText(R.string.netmask)}: ${Formatter.formatIpAddress(dhcpInfo.netmask)}")
+        info.add("${getText(R.string.gateway)}: ${Formatter.formatIpAddress(dhcpInfo.gateway)}")
+        info.add("${getText(R.string.dhcpServer)}: ${Formatter.formatIpAddress(dhcpInfo.serverAddress)}")
+        info.add("DNS1: ${Formatter.formatIpAddress(dhcpInfo.dns1)}")
+        info.add("DNS2: ${Formatter.formatIpAddress(dhcpInfo.dns2)}")
         info.add("DHCP lease: ${dhcpInfo.leaseDuration} (hh:mm:ss)")
-        info.add("${getText(R.string.externalIP)}: ${dhcpInfo.ipAddress}")
+        info.add("${getText(R.string.externalIP)}: ${Formatter.formatIpAddress(dhcpInfo.ipAddress)}")
         info.add("${getText(R.string.isHidden)}: $hidden")
-        Log.d("Main", "" + info);
     }
 }
