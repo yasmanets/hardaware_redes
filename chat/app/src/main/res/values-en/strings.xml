@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="destinyIP">Destiny IP</string>
+    <string name="startChat">Start chat</string>
+    <string name="send">Send</string>
+    <string name="serverInitError">An error occurred when starting the server</string>
+    <string name="clientDisconnected">Client disconnected</string>
+    <string name="serverDisconnected">Server disconnected</string>
+    <string name="emptyMessage"><![CDATA[<Empty message>]]></string>
+    <string name="me">Me</string>
+    <string name="delete">Delete</string>
+    <string name="deletionAsk">Are you sure you want to delete the message?</string>
+    <string name="cancel">Cancel</string>
+    <string name="invalidNick">The nickname is required</string>
+    <string name="invalidIp">The IP is not valid</string>
+</resources>

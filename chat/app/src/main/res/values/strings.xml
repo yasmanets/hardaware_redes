@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">chat</string>
+    <string name="destinyIP">IP de destino</string>
+    <string name="startChat">Iniciar chat</string>
+    <string name="send">Enviar</string>
+    <string name="serverInitError">Se ha producido un error al iniciar el servidor</string>
+    <string name="clientDisconnected">Cliente desconectado</string>
+    <string name="serverDisconnected">Servidor desconectado</string>
+    <string name="emptyMessage"><![CDATA[<Mensaje vacío>]]></string>
+    <string name="me">Yo</string>
+    <string name="delete">Borrar</string>
+    <string name="deletionAsk">¿Seguro que quieres eliminar el mensaje?</string>
+    <string name="cancel">Cancelar</string>
+    <string name="invalidNick">El nickname es obligatorio</string>
+    <string name="invalidIp">La IP no es válida</string>
+</resources>
